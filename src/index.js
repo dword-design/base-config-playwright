@@ -3,8 +3,6 @@ import defu from '@dword-design/defu';
 
 export default config =>
   defu(
-    {
-      /* eslintConfig: { rules: { 'no-object-pattern': 'off' } } */
-    },
+    { eslintConfig: { extends: '@dword-design/eslint-config', rules: { 'no-empty-pattern': 'off' } } },
     baseConfigNode(config),
   );

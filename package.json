@@ -22,7 +22,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/base-config-node": "^3.0.0",
+    "@dword-design/base-config-node": "^3.0.2",
     "@dword-design/defu": "^1.0.0"
   },
   "devDependencies": {
@@ -30,7 +30,9 @@
     "@dword-design/functions": "^6.0.2",
     "@playwright/test": "^1.52.0",
     "depcheck-package-name": "^3.0.1",
+    "execa": "^9.5.2",
     "fs-extra": "^11.3.0",
+    "output-files": "^2.0.32",
     "playwright-local-tmp-dir": "^1.0.0"
   },
   "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
