@@ -6,9 +6,7 @@ import { test } from 'playwright-local-tmp-dir';
 
 test('fixture', async () => {
   await outputFiles({
-    '.baserc.json': JSON.stringify({
-      name: '../src/index.js',
-    }),
+    '.baserc.json': JSON.stringify({ name: '../src/index.js' }),
     'package.json': JSON.stringify({
       dependencies: { '@playwright/test': '*' },
     }),
