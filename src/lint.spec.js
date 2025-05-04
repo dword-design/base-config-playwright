@@ -1,25 +1,8 @@
 import { Base } from '@dword-design/base';
 import { endent } from '@dword-design/functions';
-import { test as base } from '@playwright/test';
 import packageName from 'depcheck-package-name';
 import fs from 'fs-extra';
-import withLocalTmpDir from 'with-local-tmp-dir';
-
-const test = base.extend({
-  localTmpDir: [
-    async ({}, use) => {
-      const reset = await withLocalTmpDir();
-      process.on('SIGINT', () => reset());
-
-      try {
-        await use();
-      } finally {
-        await reset();
-      }
-    },
-    { auto: true },
-  ],
-});
+import { test } from 'playwright-local-tmp-dir';
 
 test('fixture', async () => {
   await fs.outputFile(
