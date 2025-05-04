@@ -21,6 +21,8 @@ const test = base.extend({
 
 test('fixture', async () => {
   await fs.outputFile('src/index.js', 'export default 1 |> x => x * 2');
-  new Base({ name: '../src/index.js' }).run('prepublishOnly');
-  expect(await fs.readFile('src/index.js', 'utf8')).toMatchSnapshot();
+  const baseInstance = new Base({ name: '../src/index.js' });
+  await baseInstance.prepare();
+  await baseInstance.run('prepublishOnly');
+  expect(await fs.readFile('dist/index.js', 'utf8')).toMatchSnapshot();
 });
