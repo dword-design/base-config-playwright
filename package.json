@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "@dword-design/base-config-node": "^3.0.2",
-    "@dword-design/defu": "^1.0.0"
+    "@dword-design/defu": "^1.0.0",
+    "dedent": "^1.6.0"
   },
   "devDependencies": {
     "@dword-design/base": "^12.0.0",
