@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/base-config-playwright/compare/v1.0.0...v1.0.1) (2025-05-27)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v12 ([#2](https://github.com/dword-design/base-config-playwright/issues/2)) ([b8c26a9](https://github.com/dword-design/base-config-playwright/commit/b8c26a971a846bb134cbe0242d4b929bae0580fe))
+
 # 1.0.0 (2025-05-04)
 
 
