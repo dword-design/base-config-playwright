@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/base-config-playwright/compare/v1.0.1...v1.0.2) (2025-05-27)
+
+
+### Bug Fixes
+
+* update pnpm to v10.11.0 ([#1](https://github.com/dword-design/base-config-playwright/issues/1)) ([f3f12f6](https://github.com/dword-design/base-config-playwright/commit/f3f12f6269438484813b5c7e09a82ebc2222e170))
+
 ## [1.0.1](https://github.com/dword-design/base-config-playwright/compare/v1.0.0...v1.0.1) (2025-05-27)
 
 
