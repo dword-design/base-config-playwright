@@ -22,7 +22,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/base-config-node": "^3.0.2",
+    "@dword-design/base-config-node": "^4.0.0",
     "@dword-design/defu": "^1.0.0",
     "dedent": "^1.6.0"
   },
