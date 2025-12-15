@@ -1,2 +1,0 @@
-var _;
-export default (_ = 1, _ * 2);
